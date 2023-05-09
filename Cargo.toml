@@ -1,0 +1,12 @@
+[package]
+name = "file_mutex"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+author ="https://github.com/toastxc"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.8.1"
+serde = { version = "1.0.162", features = ["derive"] }
+tokio = { version = "1.28.0", features = ["full"] }
